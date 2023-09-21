@@ -1,0 +1,33 @@
+{
+    "name": "TGVid-Comp",
+    "description": "A telegram video encoder.",
+    "logo": "https://telegra.ph/file/3ca32c39654a059500708.jpg",
+    "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
+    "repository": "https://github.com/TEIMohanish/TGVid-Comp",
+    "success_url": "",
+    "stack": "container",
+  
+    "env": {
+        "APP_ID": {
+            "description": "You api id get it from my.telegram.org or @apiScrapperRoBot",
+            "value": "5441410"
+        },
+        "API_HASH": {
+            "description": "You api hash get it from my.telegram.org or @apiScrapperRoBot.",
+            "value": "a1a4fe7d23328f419d98a58339fd9980"
+        },
+        "BOT_TOKEN": {
+            "description": "Make a bot from @BotFather and enter it's api token",
+            "value": "5568498977:AAFqLLO9TqxUOpcJMf5ePfSe3WpLYzIoAfY"
+        },
+        "OWNER": {
+            "description": "Put ids of user which can access the bot e.g 123456789",
+            "value": "2023056811"
+        },
+        "THUMBNAIL": {
+            "description": "Put Link of any picture.",
+            "value": "https://telegra.ph/file/c63c3bcf7512f14750c9e.jpg",
+            "required": false
+        }
+    }
+}
