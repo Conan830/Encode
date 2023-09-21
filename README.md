@@ -12,7 +12,7 @@ A Telegram Bot To Encode Videos Using FFMPEG.
 
 `Heroku`
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Conan830/Encode)
 
 - [Original Repo](https://github.com/1Danish-00/CompressorQueue)
 
