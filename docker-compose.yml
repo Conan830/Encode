@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  tgvid-comp-bot:
+    build:
+      context: "."
+      dockerfile: Dockerfile
+    container_name: tgvid-comp
+    environment:
+      - 5441410=${APP_ID}
+      - API_HASH=${a1a4fe7d23328f419d98a58339fd9980}
+      - BOT_TOKEN=${5568498977:AAFqLLO9TqxUOpcJMf5ePfSe3WpLYzIoAfY}
+      - OWNER=${2023056811}
+      - THUMBNAIL=${https://telegra.ph/file/c63c3bcf7512f14750c9e.jpg}
+    volumes:
+      - "/codebase:/codebase"
+      - "/storage:/storage"
+    restart: always
