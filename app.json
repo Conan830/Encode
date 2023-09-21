@@ -5,7 +5,7 @@
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
     "repository": "https://github.com/Conan830/Encode",
     "success_url": "",
-    "stack": "eco",
+    "stack": "container",
   
     "env": {
         "APP_ID": {
